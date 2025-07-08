@@ -13,7 +13,7 @@ const Index = () => {
           <div>
             <h2 className="text-xl font-semibold mb-4 text-foreground">Home</h2>
             <p className="text-foreground mb-4">
-              Hey 👋, I'm Smit. Welcome to my homepage, <a href="https://sbr.gg" className="text-link hover:text-link-hover transition-colors">sbr.gg</a>!
+              Hey 👋, I'm Smit. Welcome to my homepage, <a href="https://TBD" className="text-link hover:text-link-hover transition-colors">TBD</a>!
             </p>
             <p className="text-foreground">
               I'm currently a high school student in Michigan who is interested in software development, data science and UI/UX design!
