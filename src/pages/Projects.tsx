@@ -1,5 +1,5 @@
 import Navigation from "@/components/Navigation";
-import { Github, Globe } from "lucide-react";
+import { FaGithub, FaGlobe } from "react-icons/fa";
 
 const Projects = () => {
   return (
@@ -37,7 +37,7 @@ const Projects = () => {
                   className="absolute top-4 right-4 text-muted-foreground hover:text-link transition-colors"
                   aria-label="View conversia on GitHub"
                 >
-                  <Github size={18} />
+                  <FaGithub size={18} />
                 </a>
                 <div className="pr-16">
                   <h3 className="font-medium text-foreground mb-2">conversia</h3>
@@ -58,7 +58,7 @@ const Projects = () => {
                     className="text-muted-foreground hover:text-link transition-colors"
                     aria-label="View smit4k.github.io live site"
                   >
-                    <Globe size={18} />
+                    <FaGlobe size={18} />
                   </a>
                   <a
                     href="https://github.com/smit4k/smit4k.github.io"
@@ -67,7 +67,7 @@ const Projects = () => {
                     className="text-muted-foreground hover:text-link transition-colors"
                     aria-label="View smit4k.github.io on GitHub"
                   >
-                    <Github size={18} />
+                    <FaGithub size={18} />
                   </a>
                 </div>
                 <div className="pr-16">
@@ -90,7 +90,7 @@ const Projects = () => {
                   className="absolute top-4 right-4 text-muted-foreground hover:text-link transition-colors"
                   aria-label="View codingbat-rust on GitHub"
                 >
-                  <Github size={18} />
+                  <FaGithub size={18} />
                 </a>
                 <div className="pr-10">
                   <h3 className="font-medium text-foreground mb-2">codingbat-rust</h3>
