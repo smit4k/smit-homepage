@@ -32,7 +32,7 @@ const Navigation = () => {
       </Link>
       <span className="text-muted-foreground">•</span>
       <a 
-        href="https://github.com/smit" 
+        href="https://github.com/smit4k" 
         target="_blank" 
         rel="noopener noreferrer"
         className="px-3 py-1 rounded text-muted-foreground hover:text-link transition-colors"

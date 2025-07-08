@@ -46,7 +46,7 @@ const Index = () => {
           <div className="flex items-center gap-4">
             <span>Smit 2025 • v0.0.1</span>
             <a 
-              href="https://github.com/smit" 
+              href="https://github.com/smit4k" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-link hover:text-link-hover transition-colors"
