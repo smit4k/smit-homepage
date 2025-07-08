@@ -29,14 +29,12 @@ const Navigation = () => {
       >
         projects
       </Link>
-      <a 
-        href="https://smit4k.github.io" 
-        target="_blank" 
-        rel="noopener noreferrer"
-        className="px-3 py-1 rounded text-muted-foreground hover:text-link transition-colors"
+      <Link 
+        to="/socials"
+        className="px-3 py-1 rounded transition-colors text-muted-foreground hover:text-link"
       >
         socials
-      </a>
+      </Link>
     </nav>
   );
 };
