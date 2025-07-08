@@ -1,5 +1,7 @@
 import Navigation from "@/components/Navigation";
-import { Github, MessageCircle, Mail, Linkedin, Twitter, Instagram, X } from "lucide-react";
+import { FaGithub, FaDiscord, FaMastodon, FaLinkedin, FaInstagram } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import { IoMdMail } from "react-icons/io";
 
 const Socials = () => {
   const socials = [
@@ -7,43 +9,29 @@ const Socials = () => {
       name: "GitHub", 
       handle: "@smit4k",
       url: "https://github.com/smit4k", 
-      icon: Github,
+      icon: FaGithub,
       description: "Open source projects and code"
     },
     { 
       name: "Discord", 
       handle: "sm.it", 
-      icon: MessageCircle,
-      description: "Chat and gaming communication"
+      icon: FaDiscord,
+      description: "Direct chat and collaboration"
     },
     { 
       name: "Email", 
       handle: "smit.patil.usa@gmail.com",
       url: "mailto:smit.patil.usa@gmail.com", 
-      icon: Mail,
-      description: "Professional contact"
+      icon: IoMdMail,
+      description: "Email me!"
     },
     { 
-      name: "LinkedIn", 
-      handle: "/in/smit-patil",
-      url: "https://linkedin.com/in/smit-patil", 
-      icon: Linkedin,
-      description: "Professional network"
-    },
-    { 
-      name: "Twitter", 
-      handle: "@smit4k",
-      url: "https://twitter.com/smit4k", 
-      icon: Twitter,
+      name: "X", 
+      handle: "@saberdevx",
+      url: "https://twitter.com/saberdevx", 
+      icon: FaXTwitter,
       description: "Tech thoughts and updates"
     },
-    { 
-      name: "Instagram", 
-      handle: "@smit4k",
-      url: "https://instagram.com/smit4k", 
-      icon: Instagram,
-      description: "Personal photos and stories"
-    }
   ];
 
   return (
@@ -51,7 +39,7 @@ const Socials = () => {
       <div className="bg-card border border-border rounded-lg p-8 max-w-2xl w-full">
         <div className="flex justify-between items-start mb-8">
           <img 
-            src="/path/to/your/profile-picture.svg" 
+            src="/public/smit_pfp.svg" 
             alt="Smit's profile picture" 
             className="w-10 h-10 rounded-full object-cover border-2 border-border"
           />
