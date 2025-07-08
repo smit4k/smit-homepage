@@ -44,15 +44,20 @@ const Index = () => {
         
         <div className="mt-8 pt-6 border-t border-border text-sm text-muted-foreground">
           <div className="flex items-center gap-4">
-            <span>Smit 2025 • v0.0.1</span>
-            <a 
-              href="https://github.com/smit4k" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-link hover:text-link-hover transition-colors"
-            >
-              Github
-            </a>
+            <span className="space-x-1 flex items-center">
+              <span>Smit 2025</span>
+              <span>•</span>
+              <span>v0.0.1</span>
+              <span>•</span>
+              <a 
+                href="https://github.com/smit4k" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-link hover:text-link-hover transition-colors"
+              >
+                Github
+              </a>
+            </span>
           </div>
         </div>
       </div>
