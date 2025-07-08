@@ -5,7 +5,11 @@ const Index = () => {
     <div className="min-h-screen bg-background flex items-center justify-center p-4">
       <div className="bg-card border border-border rounded-lg p-8 max-w-2xl w-full">
         <div className="flex justify-between items-start mb-8">
-          <h1 className="text-2xl font-bold text-foreground">Smit</h1>
+          <img 
+            src="/public/smit_pfp.svg" 
+            alt="Smit's profile picture" 
+            className="w-10 h-10 rounded-full object-cover border-2 border-border"
+          />
           <Navigation />
         </div>
         <div className="space-y-8">
