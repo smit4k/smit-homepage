@@ -56,6 +56,18 @@ All colors MUST be HSL.
     --sidebar-border: 220 13% 91%;
 
     --sidebar-ring: 217.2 91.2% 59.8%;
+
+    /* Language Colors */
+    --rust: 18, 70%, 35%;
+
+    --lang-html: 12 85% 45%; 
+    --lang-html-foreground: 0 0% 98%;
+
+    --lang-css: 220 55% 35%;
+    --lang-css-foreground: 0 0% 98%;
+    
+    --lang-javascript: 48 100% 50%;  
+    --lang-javascript-foreground: 0 0% 10%;
   }
 
   .dark {

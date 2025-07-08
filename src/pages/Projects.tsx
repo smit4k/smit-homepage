@@ -27,37 +27,34 @@ const Projects = () => {
             
             <div className="space-y-4">
               <div className="border border-border rounded-lg p-4">
-                <h3 className="font-medium text-foreground mb-2">Personal Website</h3>
+                <h3 className="font-medium text-foreground mb-2">conversia</h3>
                 <p className="text-sm text-muted-foreground mb-3">
-                  A clean, minimalist personal homepage built with React and TypeScript.
+                  A powerful, multi-purpose file utility bot using the serenity and poise frameworks
                 </p>
                 <div className="flex gap-2">
-                  <span className="text-xs px-2 py-1 bg-secondary text-secondary-foreground rounded">React</span>
-                  <span className="text-xs px-2 py-1 bg-secondary text-secondary-foreground rounded">TypeScript</span>
-                  <span className="text-xs px-2 py-1 bg-secondary text-secondary-foreground rounded">Tailwind</span>
+                  <span className="text-xs px-2 py-1 bg-[hsl(var(--rust))] text-secondary-foreground rounded">Rust</span>
                 </div>
               </div>
               
               <div className="border border-border rounded-lg p-4">
-                <h3 className="font-medium text-foreground mb-2">CAD Design Tools</h3>
+                <h3 className="font-medium text-foreground mb-2">smit4k.github.io</h3>
                 <p className="text-sm text-muted-foreground mb-3">
-                  Custom tools and plugins for CAD software to streamline the design process.
+                  My previous homepage, a simple static site that links to my other socials
                 </p>
                 <div className="flex gap-2">
-                  <span className="text-xs px-2 py-1 bg-secondary text-secondary-foreground rounded">Python</span>
-                  <span className="text-xs px-2 py-1 bg-secondary text-secondary-foreground rounded">CAD</span>
+                  <span className="text-xs px-2 py-1 bg-[hsl(var(--lang-html))] text-[hsl(var(--lang-html-foreground))] rounded">HTML</span>
+                  <span className="text-xs px-2 py-1 bg-[hsl(var(--lang-css))] text-[hsl(var(--lang-css-foreground))] rounded">CSS</span>
+                  <span className="text-xs px-2 py-1 bg-[hsl(var(--lang-javascript))] text-[hsl(var(--lang-javascript-foreground))] rounded">JavaScript</span>
                 </div>
               </div>
               
               <div className="border border-border rounded-lg p-4">
-                <h3 className="font-medium text-foreground mb-2">Robotics Control System</h3>
+                <h3 className="font-medium text-foreground mb-2">codingbat-rust</h3>
                 <p className="text-sm text-muted-foreground mb-3">
-                  Control software for robotics projects including sensor integration and autonomous navigation.
+                  Rust solutions to the codingbat.com problems
                 </p>
                 <div className="flex gap-2">
-                  <span className="text-xs px-2 py-1 bg-secondary text-secondary-foreground rounded">C++</span>
-                  <span className="text-xs px-2 py-1 bg-secondary text-secondary-foreground rounded">Arduino</span>
-                  <span className="text-xs px-2 py-1 bg-secondary text-secondary-foreground rounded">Robotics</span>
+                  <span className="text-xs px-2 py-1 bg-[hsl(var(--rust))] text-secondary-foreground rounded">Rust</span>
                 </div>
               </div>
             </div>
