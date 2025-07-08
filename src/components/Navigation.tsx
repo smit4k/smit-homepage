@@ -19,7 +19,6 @@ const Navigation = () => {
       >
         home
       </Link>
-      <span className="text-muted-foreground">•</span>
       <Link 
         to="/projects" 
         className={`px-3 py-1 rounded transition-colors ${
@@ -30,7 +29,6 @@ const Navigation = () => {
       >
         projects
       </Link>
-      <span className="text-muted-foreground">•</span>
       <a 
         href="https://github.com/smit4k" 
         target="_blank" 
