@@ -30,7 +30,7 @@ const Navigation = () => {
         projects
       </Link>
       <a 
-        href="https://github.com/smit4k" 
+        href="https://smit4k.github.io" 
         target="_blank" 
         rel="noopener noreferrer"
         className="px-3 py-1 rounded text-muted-foreground hover:text-link transition-colors"
