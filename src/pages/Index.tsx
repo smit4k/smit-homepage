@@ -8,7 +8,6 @@ const Index = () => {
           <h1 className="text-2xl font-bold text-foreground">Smit</h1>
           <Navigation />
         </div>
-        
         <div className="space-y-8">
           <div>
             <h2 className="text-xl font-semibold mb-4 text-foreground">Home</h2>
@@ -20,19 +19,23 @@ const Index = () => {
               I also enjoy CAD and robotics, and I keep up to date on the latest tech trends and innovations.
             </p>
           </div>
-          
           <div>
             <h2 className="text-xl font-semibold mb-4 text-foreground">Contact</h2>
             <p className="text-foreground mb-4">
-              If you have any questions, comments, or just want to talk, you can contact me easily through 
+              If you have any questions, comments, or just want to talk, you can contact me easily through
               the following ways:
             </p>
             <div className="space-y-2 text-foreground">
-              <p>Discord: sm.it</p>
+              <p className="flex items-center gap-2">
+                <span>Discord:</span>
+                <span className="bg-teal-500/10 border border-teal-500/60 text-teal-300 px-2 py-0.5 rounded text-sm font-mono">
+                  sm.it
+                </span>
+              </p>
               <p>
                 Email:{" "}
-                <a 
-                  href="mailto:smit.patil.usa@gmail.com" 
+                <a
+                  href="mailto:smit.patil.usa@gmail.com"
                   className="text-link hover:text-link-hover transition-colors"
                 >
                   smit.patil.usa@gmail.com
@@ -41,7 +44,6 @@ const Index = () => {
             </div>
           </div>
         </div>
-        
         <div className="mt-8 pt-6 border-t border-border text-sm text-muted-foreground">
           <div className="flex items-center gap-4">
             <span className="space-x-1 flex items-center">
@@ -49,9 +51,9 @@ const Index = () => {
               <span>•</span>
               <span>v0.0.1</span>
               <span>•</span>
-              <a 
-                href="https://github.com/smit4k" 
-                target="_blank" 
+              <a
+                href="https://github.com/smit4k"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="text-link hover:text-link-hover transition-colors"
               >
