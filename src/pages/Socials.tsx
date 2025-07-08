@@ -39,7 +39,7 @@ const Socials = () => {
       <div className="bg-card border border-border rounded-lg p-8 max-w-2xl w-full">
         <div className="flex justify-between items-start mb-8">
           <img 
-            src="/public/smit_pfp.svg" 
+            src="/smit_pfp.svg" 
             alt="Smit's profile picture" 
             className="w-10 h-10 rounded-full object-cover border-2 border-border"
           />
