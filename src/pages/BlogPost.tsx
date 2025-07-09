@@ -1,14 +1,15 @@
 import { useParams, Link } from "react-router-dom";
 import Navigation from "@/components/Navigation";
 import TestBlog from "../blog/test-blog.mdx";
+import { FaClock } from "react-icons/fa";
 
 const posts = {
   "test-blog": {
     component: TestBlog,
     title: "My First Blog Post",
-    date: "2025-07-08",
+    date: "July 8, 2025",
+    estTimeToRead: "1 min",
   },
-  // Add more posts here
 };
 
 const BlogPost = () => {
@@ -38,7 +39,14 @@ const BlogPost = () => {
         </div>
         <Link to="/blog" className="text-link hover:underline mb-4 block">&larr; Back to Blog</Link>
         <h1 className="text-2xl font-bold mb-2 text-foreground">{post.title}</h1>
-        <p className="text-xs text-muted-foreground mb-6">{post.date}</p>
+        <div className="flex justify-between items-center text-xs text-muted-foreground mb-2">
+          <span>{post.date}</span>
+          <span className="flex items-center space-x-1">
+            <span>{post.estTimeToRead}</span>
+            <FaClock className="h-4 w-4 text-muted-foreground" aria-hidden="true" />
+          </span>
+        </div>
+        <hr className="border-border mb-2" />
         <div className="prose prose-invert">
           <PostComponent />
         </div>
