@@ -3,6 +3,13 @@ import { FaClock } from "react-icons/fa";
 
 const posts = [
 	{
+		slug: "making-of-lqf",
+		title: "My own configuration language, LQF",
+		date: "July 9, 2025",
+		description: "How I designed my own configuration language and my thought process behind it.",
+		estTimeToRead: "5 min",
+	},
+	{
 		slug: "test-blog",
 		title: "My First Blog Post",
 		date: "July 8, 2025",

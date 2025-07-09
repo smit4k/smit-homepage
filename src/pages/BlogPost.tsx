@@ -1,9 +1,16 @@
 import { useParams, Link } from "react-router-dom";
 import Navigation from "@/components/Navigation";
 import TestBlog from "../blog/test-blog.mdx";
+import MakingOfLQF from "../blog/making-of-lqf.mdx";
 import { FaClock } from "react-icons/fa";
 
 const posts = {
+  "making-of-lqf": {
+    component: MakingOfLQF,
+    title: "My own configuration language, LQF",
+    date: "July 9, 2025",
+    estTimeToRead: "5 min",
+  },
   "test-blog": {
     component: TestBlog,
     title: "My First Blog Post",
