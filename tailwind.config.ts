@@ -1,4 +1,6 @@
 import type { Config } from "tailwindcss";
+import animate from "tailwindcss-animate";
+import typography from "@tailwindcss/typography";
 
 export default {
 	darkMode: ["class"],
@@ -7,6 +9,8 @@ export default {
 		"./components/**/*.{ts,tsx}",
 		"./app/**/*.{ts,tsx}",
 		"./src/**/*.{ts,tsx}",
+		"./app/**/*.{ts, tsx, mdx}",
+		"./src/blog/**/*.{ts, tsx, mdx}"
 	],
 	prefix: "",
 	theme: {
@@ -93,8 +97,8 @@ export default {
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out'
-			}
+			},
+			plugins: [typography, animate],
 		}
 	},
-	plugins: [require("tailwindcss-animate")],
 } satisfies Config;
