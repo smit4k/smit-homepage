@@ -20,8 +20,8 @@ const Socials = () => {
     },
     { 
       name: "Email", 
-      handle: "smit.patil.usa@gmail.com",
-      url: "mailto:smit.patil.usa@gmail.com", 
+      handle: "smit@smit.codes",
+      url: "mailto:smit@smit.codes", 
       icon: IoMdMail,
       description: "Email me!"
     },

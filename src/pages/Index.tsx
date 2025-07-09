@@ -16,7 +16,7 @@ const Index = () => {
           <div>
             <h2 className="text-xl font-semibold mb-4 text-foreground">Home</h2>
             <p className="text-foreground mb-4">
-              Hey 👋, I'm Smit. Welcome to my homepage, <a href="https://TBD" className="text-link hover:text-link-hover transition-colors">TBD</a>!
+              Hey 👋, I'm Smit. Welcome to my homepage, <a href="https://smit.codes" className="text-link hover:text-link-hover transition-colors">smit.codes</a>!
             </p>
             <p className="text-foreground">
               I'm currently a high school student in Michigan who is interested in software development, data science and UI/UX design!
@@ -39,10 +39,10 @@ const Index = () => {
               <p>
                 Email:{" "}
                 <a
-                  href="mailto:smit.patil.usa@gmail.com"
+                  href="mailto:smit@smit.codes"
                   className="text-link hover:text-link-hover transition-colors"
                 >
-                  smit.patil.usa@gmail.com
+                  smit@smit.codes
                 </a>
               </p>
             </div>
