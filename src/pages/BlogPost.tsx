@@ -46,7 +46,7 @@ const BlogPost = () => {
             <FaClock className="h-4 w-4 text-muted-foreground" aria-hidden="true" />
           </span>
         </div>
-        <hr className="border-border mb-2" />
+        <hr className="border-border mb-4" />
         <div className="prose prose-invert">
           <PostComponent />
         </div>
