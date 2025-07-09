@@ -1,3 +1,7 @@
-# smit-homepage
+# smit.codes
+My personal homepage, you can view it at [smit.codes](https://smit.codes)!
 
-This is my new homepage that I am developing using React and Tailwind CSS. Once finished, I will move this over to [smit4k.github.io](https://smit4k.github.io)...or just buy a domain
+
+Built using React
+<br>
+Deployed with Vercel
