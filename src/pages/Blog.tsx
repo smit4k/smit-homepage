@@ -7,7 +7,7 @@ const posts = [
 		title: "My First Blog Post",
 		date: "July 8, 2025",
 		description: "This is my first blog post, testing out MDX integration!",
-    estTimeToRead: "1 min",
+    	estTimeToRead: "1 min",
 	},
 	// Add more posts here
 ];
