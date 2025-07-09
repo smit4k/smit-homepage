@@ -2,53 +2,29 @@ import { Link, useLocation } from "react-router-dom";
 
 const Navigation = () => {
   const location = useLocation();
-  
-  const isActive = (path: string) => {
-    return location.pathname === path;
-  };
+
+  const isActive = (path: string) => location.pathname === path;
 
   return (
-    <nav className="flex gap-2 mb-8">
-      <Link 
-        to="/" 
-        className={`px-3 py-1 rounded transition-colors ${
-          isActive('/') 
-            ? 'text-accent bg-secondary' 
-            : 'text-muted-foreground hover:text-link'
-        }`}
-      >
-        home
-      </Link>
-      <Link 
-        to="/projects" 
-        className={`px-3 py-1 rounded transition-colors ${
-          isActive('/projects') 
-            ? 'text-accent bg-secondary' 
-            : 'text-muted-foreground hover:text-link'
-        }`}
-      >
-        projects
-      </Link>
-            <Link 
-        to="/blog" 
-        className={`px-3 py-1 rounded transition-colors ${
-          isActive('/blog') 
-            ? 'text-accent bg-secondary' 
-            : 'text-muted-foreground hover:text-link'
-        }`}
-      >
-        blog
-      </Link>
-      <Link 
-        to="/socials"
-        className={`px-3 py-1 rounded transition-colors ${
-          isActive('/socials') 
-            ? 'text-accent bg-secondary' 
-            : 'text-muted-foreground hover:text-link'
-        }`}
-      >
-        socials
-      </Link>
+    <nav className="flex flex-wrap justify-end gap-2 w-full md:w-auto">
+      {[
+        { path: "/", label: "home" },
+        { path: "/projects", label: "projects" },
+        { path: "/blog", label: "blog" },
+        { path: "/socials", label: "socials" },
+      ].map(({ path, label }) => (
+        <Link
+          key={path}
+          to={path}
+          className={`px-3 py-1 rounded transition-colors text-sm ${
+            isActive(path)
+              ? "text-accent bg-secondary"
+              : "text-muted-foreground hover:text-link"
+          }`}
+        >
+          {label}
+        </Link>
+      ))}
     </nav>
   );
 };
