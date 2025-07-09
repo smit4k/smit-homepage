@@ -29,6 +29,16 @@ const Navigation = () => {
       >
         projects
       </Link>
+            <Link 
+        to="/blog" 
+        className={`px-3 py-1 rounded transition-colors ${
+          isActive('/blog') 
+            ? 'text-accent bg-secondary' 
+            : 'text-muted-foreground hover:text-link'
+        }`}
+      >
+        blog
+      </Link>
       <Link 
         to="/socials"
         className={`px-3 py-1 rounded transition-colors ${
