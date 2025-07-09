@@ -14,12 +14,81 @@ code {
   @apply text-sm;
 }
 
+/* Prose styles for MDX content */
+.prose {
+  @apply max-w-none;
+}
+
+.prose h1 {
+  @apply text-3xl font-bold mb-6 mt-8 text-foreground;
+}
+
+.prose h2 {
+  @apply text-2xl font-semibold mb-4 mt-6 text-foreground;
+}
+
+.prose h3 {
+  @apply text-xl font-semibold mb-3 mt-5 text-foreground;
+}
+
+.prose h4 {
+  @apply text-lg font-medium mb-2 mt-4 text-foreground;
+}
+
+.prose h5 {
+  @apply text-base font-medium mb-2 mt-3 text-foreground;
+}
+
+.prose h6 {
+  @apply text-sm font-medium mb-2 mt-3 text-foreground;
+}
+
+.prose p {
+  @apply mb-4 text-foreground;
+}
+
 .prose a {
   @apply text-blue-500 underline;
 }
 
 .prose a:hover {
   @apply text-blue-400;
+}
+
+.prose strong {
+  @apply font-semibold text-foreground;
+}
+
+.prose em {
+  @apply italic text-foreground;
+}
+
+.prose code {
+  @apply text-sm bg-muted px-1 py-0.5 rounded text-foreground;
+}
+
+.prose pre {
+  @apply mb-4;
+}
+
+.prose pre code {
+  @apply bg-transparent px-0 py-0;
+}
+
+.prose blockquote {
+  @apply border-l-4 border-border pl-4 italic text-muted-foreground;
+}
+
+.prose ul {
+  @apply list-disc pl-6 mb-4 text-foreground;
+}
+
+.prose ol {
+  @apply list-decimal pl-6 mb-4 text-foreground;
+}
+
+.prose li {
+  @apply mb-1;
 }
 
 @layer base {
