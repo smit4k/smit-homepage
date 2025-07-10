@@ -1,23 +1,35 @@
 ### How it Started
+
 We've all know JSON, YAML, and TOML. They're popular configuration languages. They're great,
 dont get me wrong, but I wanted something different, something a bit more simple, readeable, uniform, and
 most importantly, something _aesthetically pleasing_. I also had a lot of time to spend, as
 it was the end of the school year and all of my exams were over, so this was the perfect time to
-make my own configuration language, LQF, the Lightweight Quick Format (yeah im not that good with names)
+make my own configuration language, LQF, the Lightweight Quick Format (yes naming is hard)
 
 ### The Design
+
 I wanted LQF to be extremely simple and revolve around a singular symbol. 
 The symbol of choice is one of my favorite symbols, the `>` (greater than operator).
 It represents an arrow to the right, and it's very readable.
 
 #### The Basics
+
 A config language needs to have **sections** and **assignments**
 
+___
+
+##### Sections
+
 **Sections** begin with a `>` followed immediately by a section name.
+
 Example:
 ```
 > settings
 ```
+
+___
+
+##### Assignments
 
 **Assignments** are key-value pairs within a section.
 You can assign using `>>`
@@ -28,6 +40,10 @@ username >> "smit4k"
 active >> true
 ```
 
+___
+
+##### Comments
+
 Another feature that configuration languages have are **comments**.
 **Comments** in LQF start with `#` and continue to the end of the line.
 
@@ -36,7 +52,10 @@ Example:
 # This is a comment
 ```
 
+___
+
 #### Supported Values
+
 LQF supports a lot of values, when assigning a key to a value. Take a look at the t
 | Type       | Syntax Example             | Description                   |
 |------------|----------------------------|-------------------------------|
@@ -47,6 +66,7 @@ LQF supports a lot of values, when assigning a key to a value. Take a look at th
 | Array      | `[1, 2, 3]`, `["a", "b"]`   | Comma-separated list of values inside square brackets |
 
 ### That's It!
+
 That's the entire language, as of now. It's essentially completed.
 It's **simple**, **readable**, and looks **awesome** (in my opinion). I'm really happy
 about the design.
