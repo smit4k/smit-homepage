@@ -9,7 +9,7 @@ const posts = {
     component: MakingOfLQF,
     title: "My own configuration language, LQF",
     date: "July 9, 2025",
-    estTimeToRead: "5 min",
+    estTimeToRead: "3 min",
   },
   "test-blog": {
     component: TestBlog,

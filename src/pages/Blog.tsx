@@ -7,7 +7,7 @@ const posts = [
 		title: "My own configuration language, LQF",
 		date: "July 9, 2025",
 		description: "How I designed my own configuration language and my thought process behind it.",
-		estTimeToRead: "5 min",
+		estTimeToRead: "3 min",
 	},
 	{
 		slug: "test-blog",
