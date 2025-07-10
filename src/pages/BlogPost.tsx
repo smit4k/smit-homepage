@@ -44,7 +44,9 @@ const BlogPost = () => {
           />
           <Navigation />
         </div>
-        <Link to="/blog" className="text-link hover:underline mb-4 block">&larr; Back to Blog</Link>
+        <Link to="/blog" className="text-link hover:underline mb-4 block">
+          &larr; Back to Blog
+        </Link>
         <h1 className="text-2xl font-bold mb-2 text-foreground">{post.title}</h1>
         <div className="flex justify-between items-center text-xs text-muted-foreground mb-2">
           <span>{post.date}</span>
@@ -56,6 +58,24 @@ const BlogPost = () => {
         <hr className="border-border mb-4" />
         <div className="prose prose-invert">
           <PostComponent />
+        </div>
+        <div className="mt-8 pt-6 border-t border-border text-sm text-muted-foreground">
+          <div className="flex items-center gap-4">
+            <span className="space-x-1 flex items-center">
+              <span>Smit 2025</span>
+              <span>•</span>
+              <span>v0.0.1</span>
+              <span>•</span>
+              <a
+                href="https://github.com/smit4k"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-link hover:text-link-hover transition-colors"
+              >
+                Github
+              </a>
+            </span>
+          </div>
         </div>
       </div>
     </div>
