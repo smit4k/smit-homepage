@@ -1,5 +1,5 @@
 import Navigation from "@/components/Navigation";
-import { FaGithub, FaDiscord, FaMastodon, FaLinkedin, FaInstagram } from "react-icons/fa";
+import { FaGithub, FaDiscord, FaMastodon } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { IoMdMail } from "react-icons/io";
 
@@ -32,6 +32,13 @@ const Socials = () => {
       icon: FaXTwitter,
       description: "Tech thoughts and updates"
     },
+    {
+      name: "Mastodon",
+      handle: "@xbr",
+      url: "https://mastodon.social/@xbr",
+      icon: FaMastodon,
+      description: "I don't use this much, but you can find me here"
+    }
   ];
 
   return (
