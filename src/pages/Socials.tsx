@@ -1,5 +1,6 @@
 import Navigation from "@/components/Navigation";
-import { FaGithub, FaDiscord, FaMastodon } from "react-icons/fa";
+import { Description } from "@radix-ui/react-toast";
+import { FaGithub, FaDiscord, FaMastodon, FaTwitch } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { IoMdMail } from "react-icons/io";
 
@@ -38,6 +39,13 @@ const Socials = () => {
       url: "https://mastodon.social/@xbr",
       icon: FaMastodon,
       description: "I don't use this much, but you can find me here"
+    },
+    {
+      name: "Twitch",
+      handle: "saberdevstreams",
+      url: "https://twitch.tv/saberdevstreams",
+      icon: FaTwitch,
+      description: "Livestreams and coding sessions"
     }
   ];
 
