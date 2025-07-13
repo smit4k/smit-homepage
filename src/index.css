@@ -172,14 +172,12 @@ th code {
     /* Language Colors */
     --rust: 18, 70%, 35%;
 
-    --lang-html: 12 85% 45%; 
-    --lang-html-foreground: 0 0% 98%;
+    --lang-react: 0, 0%, 13%;
+    --lang-react-foreground: 192, 95%, 68%;
 
-    --lang-css: 220 55% 35%;
-    --lang-css-foreground: 0 0% 98%;
-    
-    --lang-javascript: 48 100% 50%;  
-    --lang-javascript-foreground: 0 0% 10%;
+    --lang-tailwind: 198, 93%, 60%;
+    --lang-tailwind-foreground: 0 0% 98%;
+  
   }
 
   .dark {

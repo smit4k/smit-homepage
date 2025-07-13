@@ -1,5 +1,5 @@
 import Navigation from "@/components/Navigation";
-import { FaGithub, FaGlobe, FaReact } from "react-icons/fa";
+import { FaGithub, FaGlobe, FaRust, FaReact } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 
 const Projects = () => {
@@ -46,40 +46,39 @@ const Projects = () => {
                     A powerful, multi-purpose file utility bot using the serenity and poise frameworks
                   </p>
                   <div className="flex gap-2">
-                    <span className="text-xs px-2 py-1 bg-[hsl(var(--rust))] text-secondary-foreground rounded">Rust</span>
+                    <span className="text-xs px-2 py-1 bg-[hsl(var(--rust))] text-secondary-foreground rounded"><FaRust /></span>
                   </div>
                 </div>
               </div>
               <div className="border border-border rounded-lg p-4 relative">
                 <div className="absolute top-4 right-4 flex gap-2">
                   <a
-                    href="https://smit4k.github.io"
+                    href="https://smit.codes"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-link transition-colors"
-                    aria-label="View smit4k.github.io live site"
+                    aria-label="View smit.codes site"
                   >
                     <FaGlobe size={18} />
                   </a>
                   <a
-                    href="https://github.com/smit4k/smit4k.github.io"
+                    href="https://github.com/smit4k/smit.codes"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-link transition-colors"
-                    aria-label="View smit4k.github.io on GitHub"
+                    aria-label="View smit.codes on GitHub"
                   >
                     <FaGithub size={18} />
                   </a>
                 </div>
                 <div className="pr-16">
-                  <h3 className="font-medium text-foreground mb-2">smit4k.github.io</h3>
+                  <h3 className="font-medium text-foreground mb-2">smit.codes</h3>
                   <p className="text-sm text-muted-foreground mb-3">
-                    My previous homepage, a simple static site that links to my other socials
+                    This website, a personal homepage, and my first time using React and TailwindCSS
                   </p>
                   <div className="flex gap-2">
-                    <span className="text-xs px-2 py-1 bg-[hsl(var(--lang-html))] text-[hsl(var(--lang-html-foreground))] rounded">HTML</span>
-                    <span className="text-xs px-2 py-1 bg-[hsl(var(--lang-css))] text-[hsl(var(--lang-css-foreground))] rounded">CSS</span>
-                    <span className="text-xs px-2 py-1 bg-[hsl(var(--lang-javascript))] text-[hsl(var(--lang-javascript-foreground))] rounded">JavaScript</span>
+                    <span className="text-xs px-2 py-1 bg-[hsl(var(--lang-react))] text-[hsl(var(--lang-react-foreground))] rounded"><FaReact /></span>
+                    <span className="text-xs px-2 py-1 bg-[hsl(var(--lang-tailwind))] text-[hsl(var(--lang-tailwind-foreground))] rounded"><RiTailwindCssFill /></span>
                   </div>
                 </div>
               </div>
@@ -99,7 +98,7 @@ const Projects = () => {
                     Rust solutions to the codingbat.com problems
                   </p>
                   <div className="flex gap-2">
-                    <span className="text-xs px-2 py-1 bg-[hsl(var(--rust))] text-secondary-foreground rounded">Rust</span>
+                    <span className="text-xs px-2 py-1 bg-[hsl(var(--rust))] text-secondary-foreground rounded"><FaRust /></span>
                   </div>
                 </div>
               </div>
