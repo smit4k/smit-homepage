@@ -1,5 +1,6 @@
 import Navigation from "@/components/Navigation";
-import { FaGithub, FaGlobe } from "react-icons/fa";
+import { FaGithub, FaGlobe, FaReact } from "react-icons/fa";
+import { RiTailwindCssFill } from "react-icons/ri";
 
 const Projects = () => {
   return (
@@ -109,7 +110,8 @@ const Projects = () => {
           <span className="space-x-1 flex items-center">
             <span>Smit 2025</span>
             <span>•</span>
-            <span>v0.0.1</span>
+            <span><FaReact /></span>
+            <span><RiTailwindCssFill /></span>
             <span>•</span>
             <a
               href="https://github.com/smit4k"

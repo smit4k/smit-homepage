@@ -1,8 +1,9 @@
 import Navigation from "@/components/Navigation";
 import { Description } from "@radix-ui/react-toast";
-import { FaGithub, FaDiscord, FaMastodon, FaTwitch } from "react-icons/fa";
+import { FaGithub, FaDiscord, FaMastodon, FaTwitch, FaReact } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { IoMdMail } from "react-icons/io";
+import { RiTailwindCssFill } from "react-icons/ri";
 
 const Socials = () => {
   const socials = [
@@ -113,7 +114,8 @@ const Socials = () => {
           <span className="space-x-1 flex items-center">
             <span>Smit 2025</span>
             <span>•</span>
-            <span>v0.0.1</span>
+            <span><FaReact /></span>
+            <span><RiTailwindCssFill /></span>
             <span>•</span>
             <a
               href="https://github.com/smit4k"
