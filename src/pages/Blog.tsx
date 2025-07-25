@@ -60,10 +60,7 @@ const Blog = () => (
       <div className="mt-8 pt-6 border-t border-border text-sm text-muted-foreground">
         <div className="flex items-center gap-4">
           <span className="space-x-1 flex items-center">
-            <span>Smit 2025</span>
-            <span>•</span>
-            <span><FaReact /></span>
-            <span><RiTailwindCssFill /></span>
+            <span>© 2025 smit4k</span>
             <span>•</span>
             <a
               href="https://github.com/smit4k"
