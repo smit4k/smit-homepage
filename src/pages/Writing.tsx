@@ -1,6 +1,7 @@
 import Navigation from "@/components/Navigation";
 import { FaClock, FaReact } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
+import Footer from "@/components/Footer";
 
 const posts = [
   {
@@ -50,22 +51,7 @@ const Writing = () => (
           </a>
         ))}
       </div>
-      <div className="mt-8 pt-6 border-t border-border text-sm text-muted-foreground">
-        <div className="flex items-center gap-4">
-          <span className="space-x-1 flex items-center">
-            <span>© 2025 smit4k</span>
-            <span>•</span>
-            <a
-              href="https://github.com/smit4k"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-link hover:text-link-hover transition-colors"
-            >
-              Github
-            </a>
-          </span>
-        </div>
-      </div>
+      <Footer />
     </div>
   </div>
 );
