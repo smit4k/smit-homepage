@@ -1,7 +1,6 @@
 import { useParams, Link } from "react-router-dom";
 import Navigation from "@/components/Navigation";
-import TestBlog from "../blog/test-blog.mdx";
-import MakingOfLQF from "../blog/making-of-lqf.mdx";
+import MakingOfLQF from "../writing/making-of-lqf.mdx";
 import { FaClock, FaReact } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 
@@ -12,15 +11,9 @@ const posts = {
     date: "July 9, 2025",
     estTimeToRead: "3 min",
   },
-  "test-blog": {
-    component: TestBlog,
-    title: "My First Blog Post",
-    date: "July 8, 2025",
-    estTimeToRead: "1 min",
-  },
 };
 
-const BlogPost = () => {
+const WritingPost = () => {
   const { slug } = useParams();
   const post = posts[slug as keyof typeof posts];
 
@@ -45,8 +38,8 @@ const BlogPost = () => {
           />
           <Navigation />
         </div>
-        <Link to="/blog" className="text-link hover:underline mb-4 block">
-          &larr; Back to Blog
+        <Link to="/writing" className="text-link hover:underline mb-4 block">
+          &larr; Back to Writing
         </Link>
         <h1 className="text-2xl font-bold mb-2 text-foreground">{post.title}</h1>
         <div className="flex justify-between items-center text-xs text-muted-foreground mb-2">
@@ -81,4 +74,4 @@ const BlogPost = () => {
   );
 };
 
-export default BlogPost;
+export default WritingPost;

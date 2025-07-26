@@ -10,7 +10,7 @@ const Navigation = () => {
       {[
         { path: "/", label: "home" },
         { path: "/projects", label: "projects" },
-        { path: "/blog", label: "blog" },
+        { path: "/writing", label: "writing" },
         { path: "/socials", label: "socials" },
       ].map(({ path, label }) => (
         <Link

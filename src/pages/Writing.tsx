@@ -10,17 +10,10 @@ const posts = [
     description: "How I designed my own configuration language and my thought process behind it.",
     estTimeToRead: "3 min",
   },
-  {
-    slug: "test-blog",
-    title: "My First Blog Post",
-    date: "July 8, 2025",
-    description: "This is my first blog post, testing out MDX integration!",
-    estTimeToRead: "1 min",
-  },
   // Add more posts here
 ];
 
-const Blog = () => (
+const Writing = () => (
   <div className="min-h-screen bg-background flex items-center justify-center p-4">
     <div className="bg-card border border-border rounded-lg p-8 max-w-2xl w-full">
       <div className="flex justify-between items-start mb-8">
@@ -31,15 +24,15 @@ const Blog = () => (
         />
         <Navigation />
       </div>
-      <h2 className="text-xl font-semibold mb-4 text-foreground">Blog</h2>
+      <h2 className="text-xl font-semibold mb-4 text-foreground">Writing</h2>
       <p className="text-muted-foreground mb-6">
-        Welcome to my blog! I'll be writing some cool stuff!
+        Welcome to my writing! I'll be sharing some cool stuff!
       </p>
       <div className="space-y-4">
         {posts.map((post) => (
           <a
             key={post.slug}
-            href={`/blog/${post.slug}`}
+            href={`/writing/${post.slug}`}
             className="block border border-border rounded-lg p-4 hover:bg-secondary transition-colors"
           >
             <div className="flex justify-between items-start">
@@ -77,4 +70,4 @@ const Blog = () => (
   </div>
 );
 
-export default Blog;
+export default Writing;
