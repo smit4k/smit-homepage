@@ -1,5 +1,4 @@
 import Navigation from "@/components/Navigation";
-import ThemeToggle from "@/components/ThemeToggle";
 import { FaReact } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 
@@ -52,7 +51,7 @@ const Index = () => {
           </div>
         </div>
         <div className="mt-8 pt-6 border-t border-border text-sm text-muted-foreground">
-          <div className="flex items-center justify-between">
+          <div className="flex items-center gap-4">
             <span className="space-x-1 flex items-center">
               <span>© 2025 smit4k</span>
               <span>•</span>
@@ -65,7 +64,6 @@ const Index = () => {
                 Github
               </a>
             </span>
-            <ThemeToggle />
           </div>
         </div>
       </div>
